@@ -7,3 +7,22 @@
 p{
     font-size: 1.2em;
 }
+header
+{
+	text-align: left;
+	padding: 2em;
+    max-width:1160px;
+    margin:0 auto;
+}
+header img{
+    width: 200px;
+}
+nav ul 
+{
+    /* no funciona */
+    /* display: inline;
+list-style: none;
+    text-align:center; */
+    background-color: rgba(255, 255, 255, 0.514);
+
+}
