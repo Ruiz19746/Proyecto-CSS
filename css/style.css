@@ -2,7 +2,7 @@
 {
     margin: 0px;
     padding: 0px;
-    background-color: #282828;
+    background-color: rgba(0, 0, 0, 0.534);
 }
 p{
     font-size: 1.2em;
@@ -19,10 +19,6 @@ header img{
 }
 nav ul 
 {
-    /* no funciona */
-    /* display: inline;
-list-style: none;
-    text-align:center; */
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: #282828;
 
 }
