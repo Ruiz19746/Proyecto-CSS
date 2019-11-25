@@ -1,8 +1,8 @@
-body {
+/* body {
     background: rgb(0, 0, 0);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(12%, rgba(0, 0, 0, 1)), color-stop(67%, rgba(89, 89, 89, 0.7259278711484594)), to(rgba(235, 228, 228, 1)));
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 12%, rgba(89, 89, 89, 0.7259278711484594) 67%, rgba(235, 228, 228, 1) 100%);
-}
+} */
 
 .parallax h1 {
     font-family: 'Kaushan Script', cursive;
@@ -31,7 +31,6 @@ body {
 
 .parallax img {
     border: 18px double black;
-    ;
 }
 
 .logo {
@@ -43,4 +42,65 @@ body {
     width: 60px;
     margin: auto;
     display: block;
+}
+
+
+/*NAV*/
+
+nav {
+    background-color: #286955;
+}
+
+#flex-container {
+    display: flex;
+}
+
+#flex-container div {
+    width: 33.3%;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#flex-container .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container .menu li {
+    float: right;
+}
+
+#flex-container .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#flex-container .menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#flex-container .menu2 li {
+    float: left;
+}
+
+#flex-container .menu2 li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#flex-container .logo {
+    color: rebeccapurple;
+    text-align: center;
 }
